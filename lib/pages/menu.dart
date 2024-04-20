@@ -3,6 +3,7 @@ import 'package:certamen1_apps_moviles/pages/limpiador.dart';
 import 'package:certamen1_apps_moviles/pages/somelier.dart';
 import 'package:flutter/material.dart';
 
+import 'continental.dart';
 import 'sastre.dart';
 
 class MenuPage extends StatelessWidget {
@@ -77,6 +78,21 @@ class MenuPage extends StatelessWidget {
             onTap: (){
               final route = MaterialPageRoute(builder: (context){
               return LimpiadorPage();
+              });
+              Navigator.push(context, route);
+            },
+            ),
+          Divider(
+          thickness: 0.7,
+          color: Colors.white,
+          ),
+          ListTile(
+            leading: Icon(Icons.hotel_class_outlined), iconColor: Colors.white,
+            trailing: Icon(Icons.keyboard_arrow_right),
+            title: Text('Continentales', style: TextStyle(color: Colors.white)),
+            onTap: (){
+              final route = MaterialPageRoute(builder: (context){
+              return ContinentalPage();
               });
               Navigator.push(context, route);
             },
