@@ -11,11 +11,19 @@ class MenuPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Center(child: DefaultTabController(
+      length: 2, child: 
+    Scaffold(
       appBar: (AppBar(
         leading: Icon(Icons.account_circle, color: Colors.white,),
         title: Text('Servicios', style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.black,
+        bottom: TabBar(tabs: [
+          Tab(text: 'Perfil',
+          icon: Icon(Icons.account_circle, color: Colors.white,),),
+          Tab(text: 'Servicios',
+          icon: Icon(Icons.room_service, color: Colors.white,),),
+        ],),
         )
       ),
       
@@ -102,7 +110,7 @@ class MenuPage extends StatelessWidget {
           color: Colors.white,
           ),
         ]      
-      ),
+      ),),)
     );
   }
 }
