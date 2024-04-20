@@ -1,4 +1,9 @@
+import 'package:certamen1_apps_moviles/pages/doctor.dart';
+import 'package:certamen1_apps_moviles/pages/limpiador.dart';
+import 'package:certamen1_apps_moviles/pages/somelier.dart';
 import 'package:flutter/material.dart';
+
+import 'sastre.dart';
 
 class MenuPage extends StatelessWidget {
   const MenuPage({super.key});
@@ -14,7 +19,10 @@ class MenuPage extends StatelessWidget {
             trailing: Icon(Icons.keyboard_arrow_right),
             title: Text('Somelier'),
             onTap: (){
-              print('somelier');
+              final route = MaterialPageRoute(builder: (context){
+              return SomelierPage();
+              });
+              Navigator.push(context, route);
             },
             ),
           Divider(
@@ -26,7 +34,10 @@ class MenuPage extends StatelessWidget {
             trailing: Icon(Icons.keyboard_arrow_right),
             title: Text('Doctor'),
             onTap: (){
-              print('Doctor');
+              final route = MaterialPageRoute(builder: (context){
+                return DoctorPage();
+              });
+              Navigator.push(context, route);
             },
             ),
           Divider(
@@ -38,7 +49,10 @@ class MenuPage extends StatelessWidget {
             trailing: Icon(Icons.keyboard_arrow_right),
             title: Text('Sastre'),
             onTap: (){
-              print('Sastre');
+              final route = MaterialPageRoute(builder: (context){
+              return SastrePage();
+              });
+              Navigator.push(context, route);
             },
             ),
           Divider(
@@ -50,7 +64,10 @@ class MenuPage extends StatelessWidget {
             trailing: Icon(Icons.keyboard_arrow_right),
             title: Text('Limpiadores'),
             onTap: (){
-              print('Limpiadores');
+              final route = MaterialPageRoute(builder: (context){
+              return LimpiadorPage();
+              });
+              Navigator.push(context, route);
             },
             ),
           Divider(
