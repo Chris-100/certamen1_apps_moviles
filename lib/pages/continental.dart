@@ -13,7 +13,7 @@ class ContinentalPage extends StatelessWidget {
       foregroundColor: Colors.white,
       ),
       backgroundColor: Colors.black,
-      body: Center(child: Text('ContinentalPage',style: MyStyle.text),),
+      body: Center(child: Text('The Continental es una cadena internacional de hoteles de lujo que funcionan como territorios neutrales para miembros del hampa criminal. Son frecuentados por muchos sicarios y delincuentes de alto nivel.',style: MyStyle.text),),
     );
   }
 }

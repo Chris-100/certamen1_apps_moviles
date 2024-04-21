@@ -11,7 +11,7 @@ class SomelierPage extends StatelessWidget {
       foregroundColor: Colors.white,
       backgroundColor: Colors.black,),
       backgroundColor: Colors.black,
-      body: Center(child: Text('Somelier1',style: MyStyle.text)),
+      body: Center(child: Text('El Sommelier es un servicio prestado en The Continental, suministra y sugiere armas de fuego y municiones.',style: MyStyle.text)),
       
     );
   }

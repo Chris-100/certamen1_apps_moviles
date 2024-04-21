@@ -13,7 +13,7 @@ class DoctorPage extends StatelessWidget {
       foregroundColor: Colors.white,
       ),
       backgroundColor: Colors.black,
-      body: Center(child: Text('DoctorPage',style: MyStyle.text),),
+      body: Center(child: Text('El Doctor es un médico de guardia cuyo trabajo es tratar heridas y lesiones de sicarios, criminales y asesinos.',style: MyStyle.text),),
     );
   }
 }

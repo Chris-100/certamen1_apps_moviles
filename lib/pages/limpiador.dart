@@ -12,7 +12,7 @@ class LimpiadorPage extends StatelessWidget {
       backgroundColor: Colors.black,
       foregroundColor: Colors.white,),
       backgroundColor: Colors.black,
-      body: Center(child: Text('LimpiadorPage',style: MyStyle.text,),),
+      body: Center(child: Text('Los limpiadores son un servicio comúnmente utilizado por los asesinos para limpiar las escenas del crimen y deshacerse de los cadáveres.',style: MyStyle.text,),),
     );
   }
 }

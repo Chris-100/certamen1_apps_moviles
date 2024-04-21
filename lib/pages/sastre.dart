@@ -12,7 +12,7 @@ class SastrePage extends StatelessWidget {
       backgroundColor: Colors.black,
       foregroundColor: Colors.white,),
       backgroundColor: Colors.black,
-      body: Center(child: Text('SastrePage',style: MyStyle.text),),
+      body: Center(child: Text('The Tailor es un Servicio Continental que proporciona a los clientes su vestuario.',style: MyStyle.text),),
     );
   }
 }

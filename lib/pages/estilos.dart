@@ -5,4 +5,9 @@ class MyStyle{
     color: Colors.white,
     backgroundColor: Colors.black
   );
+  static TextStyle sagre= TextStyle(
+    color: Color.fromARGB(255, 125, 0, 0),
+    backgroundColor: Colors.black,
+
+  );
 }
